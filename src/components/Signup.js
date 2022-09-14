@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from 'react'
 import {NavLink,useNavigate} from 'react-router-dom'
-import axios from 'axios'
+// import axios from 'axios'
 
 const Signup = () => {
     const navigate = useNavigate()

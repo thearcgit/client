@@ -49,11 +49,11 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      {/* <div className="signup-content">
+      <div className="signup-content">
         <h1>Welcome</h1>
 
-      </div> */}
-      {/* <h1>{data.name}</h1> */}
+      </div>
+      
       <div className="signup-content user-list">
         <div className="form-button user">
 
@@ -61,12 +61,28 @@ const Home = () => {
           
         </div>
       </div>
-        {
-          users.map(user => {
-           return <div>{user.name}</div>
-          }
-          )
-        }
+        
+          <div className="users-list">
+            <div className="user">
+            {
+            users.map(user => {
+              return(            
+                <div className="user-details" >
+                  <p key={user.id}>Name:{user.name}</p>
+                  <p key={user.id}>Email:{user.email}</p>
+                  <p key={user.id}>Phone:{user.phone}</p>
+                </div>
+              
+              )
+
+           
+            })
+            }
+            </div>
+
+          </div>
+          
+        
       
     </>
   )

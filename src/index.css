@@ -14,7 +14,7 @@ body,button,input{
 body{
     max-height: 100vh;
     max-width: 100vw;
-    overflow: hidden;
+    /* overflow: hidden; */
     background-color: rgb(197, 223, 219);
 }
 .signup-content{
@@ -66,4 +66,23 @@ body{
   padding: 10px;
   /* display: flex; */
   /* direction: column; */
+}
+.users-list{
+  display: flex;
+  direction: column;
+  justify-content: center;
+  padding: 5px;
+}
+.user{
+  background-color: rgb(222, 213, 231);
+  /* margin: 5px; */
+  padding: 10px;
+  /* display: flex; */
+  /* direction: column; */
+}
+
+.user-details{
+  background-color: bisque;
+  padding: 5px;
+  margin: 10px;
 }
