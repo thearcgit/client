@@ -43,7 +43,7 @@ const Login = () => {
             <div className="contaitner mt-5">
                 <div className="login-content">
                     <div className="login-form">
-                        <h2 className='form-title'>Sign Up</h2>
+                        <h2 className='form-title'>Sign In</h2>
                         <form className='register-form'>
                             
                             <div className="form-group">

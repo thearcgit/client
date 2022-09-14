@@ -15,7 +15,7 @@ body{
     max-height: 100vh;
     max-width: 100vw;
     /* overflow: hidden; */
-    background-color: rgb(197, 223, 219);
+    background-color: rgb(210, 213, 212);
 }
 .signup-content{
   display: flex;
