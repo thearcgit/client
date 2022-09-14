@@ -1,13 +1,69 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body,button,input{
+    font-family: "josefin sans",sans-serif;
+}
+
+body{
+    max-height: 100vh;
+    max-width: 100vw;
+    overflow: hidden;
+    background-color: rgb(197, 223, 219);
+}
+.signup-content{
+  display: flex;
+  direction: column;
+  justify-content: center;
+  padding: 5px;
+  /* background-color: brown; */
+
+}
+
+.signup-form{
+  background-color: rgb(136, 125, 146);
+  /* margin: 5px; */
+  padding: 10px;
+  /* display: flex; */
+  /* direction: column; */
+}
+.form-title{
+  align-items: center;
+
+}
+.form-group{
+  margin: 3px;
+}
+
+.form-button input{
+  background-color: rgb(68, 93, 216);
+  margin-top: 6px;
+  padding: 3px;
+  border-radius: 6px;
+  color: white;
+}
+
+.form-button input:hover{
+  background: orange;
+  color: green;
+}
+.login-content{
+  display: flex;
+  direction: column;
+  justify-content: center;
+  padding: 5px;
+}
+
+.login-form{
+  background-color: rgb(222, 213, 231);
+  /* margin: 5px; */
+  padding: 10px;
+  /* display: flex; */
+  /* direction: column; */
 }
