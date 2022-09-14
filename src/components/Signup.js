@@ -41,6 +41,9 @@ const Signup = () => {
         }else if(password !== cpassword){
             window.alert(`Password and Confirm Password should be same`)
         }
+        else if(phone.toString().length < 10 || phone.toString().length >10){
+            window.alert('Please fill 10 digits number')
+        }
         else{
             window.alert('Registration Succesfull')
             console.log('Registration Succesfull')
@@ -74,7 +77,8 @@ const Signup = () => {
                             </div>
                             <div className="form-group">
                                 <label htmlFor="name">Phone:</label><br />
-                                <input type="number" name='phone' id='phone' pattern='[0-9]{10}' autoComplete='off'
+                                <input type="number" name='phone' id='phone' pattern='[6-9]{1}[0-9]{9}' 
+                                autoComplete='off'
                                 value={user.phone}
                                 onChange={handleInputs}
                                 placeholder='Your Phone' />
