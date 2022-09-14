@@ -3,7 +3,7 @@ import Navbar from './components/Navbar'
 import Home from './components/Home'
 import Signup from './components/Signup'
 import Login from './components/Login'
-import List from './components/List'
+// import List from './components/List'
 import {Routes,Route} from 'react-router-dom'
 
 
